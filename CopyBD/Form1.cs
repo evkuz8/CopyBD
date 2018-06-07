@@ -24,7 +24,7 @@ namespace CopyBD
         private void startBtn_Click(object sender, EventArgs e)
         {
 
-            if (ServerNametxt.Text != string.Empty || UniNametxt.Text != string.Empty || UniCopyNametxt.Text != string.Empty )
+            if (ServerNametxt.Text != string.Empty || UniNametxt.Text != string.Empty || UniCopyNametxt.Text != string.Empty ) //
             {
                 string dbName, dbCopyName;
                 if (numericUpDownFROM.Value > numericUpDownTO.Value )
